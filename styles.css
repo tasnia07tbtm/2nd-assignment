@@ -1,0 +1,20 @@
+.influencer{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half{
+    width:50%;
+    padding-left: 2%;
+}
+.half img{
+    width: 80%;
+}
+.half h1{
+    font-size: 50px;
+}
+.half p{
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+}
