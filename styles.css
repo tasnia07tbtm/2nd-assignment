@@ -128,3 +128,56 @@ font-weight: 500;
    footer section style End
      ------------------------*/
  
+/* responsiv */
+@media  only screen and(max-width: 576px;){
+    .influencer {
+        flex-direction: column;
+      }
+    
+      .influencer > .half {
+        width: 100%;
+        margin: 1em 0;
+      }
+      .half > h1 {
+        font-size: 30px;
+      }
+    
+      .grid-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .footer{
+        width: 100%;
+      }
+    
+    } 
+ }
+@media only screen (max-width:992px){
+    .influencer {
+        flex-direction: column;
+      }
+    
+      .influencer > .half {
+        width: 100%;
+        margin: 1em 0;
+      }
+      .half > h1 {
+        font-size: 30px;
+      }
+    
+      .grid-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .footer{
+        width: 100%;
+      }
+    
+    }
+
+
+
+}    
+}
